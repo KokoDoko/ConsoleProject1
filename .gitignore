@@ -6,10 +6,15 @@ test-results
 *.csproj.user
 *.suo
 *.cache
+*.sln
+*.csproj
 *~
 *.swp
 *.userprefs
 *.pidb
+
+# compile settings. is dit nodig?
+Properties
 
 #User Specific
 *.userprefs
