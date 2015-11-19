@@ -1,18 +1,29 @@
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+bin
+obj
+Obj
+TestResults
+test-results
+*.csproj.user
+*.suo
+*.cache
+*~
+*.swp
+*.userprefs
+*.pidb
 
-# Precompiled Headers
-*.gch
-*.pch
+#User Specific
+*.userprefs
+*.usertasks
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
+#Mono Project Files
+*.pidb
+*.resources
+test-results/
+
+# mac system files
+.DS_Store
+*.DS_Store
+*/.DS_Store
 
 # Shared objects (inc. Windows DLLs)
 *.dll
@@ -27,6 +38,3 @@
 *.i*86
 *.x86_64
 *.hex
-
-# Debug files
-*.dSYM/
