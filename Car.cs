@@ -6,11 +6,11 @@ namespace ConsoleProject1
 	{
 		public Car()
 		{
-			Console.WriteLine("Starting car...");
+			Console.WriteLine("Starting the car...");
 		}
 
 		public void Drive(){
-			Console.WriteLine("Vroom");
+			Console.WriteLine("Vroom!");
 		}
 	}
 }
