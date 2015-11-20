@@ -12,5 +12,9 @@ namespace ConsoleProject1
 		public void Drive(){
 			Console.WriteLine("Vroom!");
 		}
+		
+		public void Stop(){
+			Console.WriteLine("Stopping the car...");
+		}
 	}
 }
